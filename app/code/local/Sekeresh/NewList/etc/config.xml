@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Sekeresh_NewList>
+            <version>
+                0.1.0
+            </version>
+        </Sekeresh_NewList>
+    </modules>
+    <global>
+        <blocks>
+            <sekeresh_newlist>
+                <class>Sekeresh_NewList_Block</class>
+            </sekeresh_newlist>
+        </blocks>
+    </global>
+    <frontend>
+        <routers>
+            <sekeresh_newlist>
+                <use>standard</use>
+                <args>
+                    <module>Sekeresh_NewList</module>
+                    <frontName>sekeresh_newlist</frontName>
+                </args>
+            </sekeresh_newlist>
+        </routers>
+        <layout>
+            <updates>
+                <sekeresh_newlist>
+                   <file>sekeresh_newlist.xml</file>
+                </sekeresh_newlist>
+            </updates>
+        </layout>
+    </frontend>
+</config>

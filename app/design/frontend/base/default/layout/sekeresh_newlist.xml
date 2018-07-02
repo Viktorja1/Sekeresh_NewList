@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <sekeresh_newlist_index_list>
+        <reference name="content">
+            <block type="sekeresh_newlist/list" name="sekeresh_newlist.list" template="sekeresh/newlist.phtml" />
+        </reference>
+    </sekeresh_newlist_index_list>
+</layout>
